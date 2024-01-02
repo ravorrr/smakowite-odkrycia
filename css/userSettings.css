@@ -1,0 +1,122 @@
+@import url(config/style.css);
+@import url(config/nav.css);
+
+body {
+    color: #252525 !important;
+    background-color: #f4f6f9 !important;
+    height: 100vh !important;
+}
+
+.avatar-xl img {
+    width: 110px;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.text-muted {
+    color: #aeb0b4 !important;
+    font-weight: 300;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d5154;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #eef0f3;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+#password, #confirm_password {
+    box-shadow: none !important;
+}
+
+.settings {
+    margin-top: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-password-button-rounded {
+    border-radius: 0 0.25rem 0.25rem 0 !important;
+    border-left: 0;
+    background-color: #ffffff;
+    box-shadow: none;
+    outline: none !important;
+}
+
+.show-password-button-rounded:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+@media only screen and (max-width: 810px) {
+    .animateText{
+        font-size: 8rem;
+    }
+
+    .links-container{
+        width: 100%;
+        right: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .accounts_container{
+        width: 70px;
+        margin-right: 130px;
+    }
+
+    .logo-word {
+        display: none; /* Ukryj tekst */
+      }
+    
+      .logo-img {
+        display: inline; /* Pokaż obrazek */
+      }
+}
+
+
+/* textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: black;
+  box-shadow: none;
+  outline: 0 none;
+} */

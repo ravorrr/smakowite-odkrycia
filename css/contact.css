@@ -1,0 +1,70 @@
+@import url(config/style.css);
+body {
+    background-image: url(../assets/img//regulamin/regulamin.jpg);
+    background-size: cover;
+    font-family: 'Poppins' !important;
+    height: 100vh;
+}
+.contact {
+    width: 50vw;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(240, 12, 12, 0.1);
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    resize: vertical;
+}
+

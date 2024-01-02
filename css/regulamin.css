@@ -1,0 +1,30 @@
+@import url(config/style.css);
+body {
+    background-image: url(../assets/img//regulamin/regulamin.jpg);
+    background-size: cover;
+    font-family: 'Poppins' !important;
+}
+
+.reg-bgd {
+    width: 50vw;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    display: flex;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.regulamin {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+    color: white; 
+    font-size: large;
+}
+
