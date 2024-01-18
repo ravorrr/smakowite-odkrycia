@@ -4,4 +4,4 @@
 **_We are incredibly proud of our baby XD._**
 
 ### **Project participants:**
-@ravorrr | @Roguu2 | @Dysky2 | @matikoxfirefox 
+[@ravorrr](https://www.github.com/ravorrr) | [@Roguu2](https://www.github.com/Roguu2) | [@Dysky2](https://www.github.com/Dysky2) | [@matikoxfirefox](https://www.github.com/matikoxfirefox)
